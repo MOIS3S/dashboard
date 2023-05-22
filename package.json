@@ -10,8 +10,12 @@
   },
   "private": true,
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@iconscout/unicons": "^4.0.8",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^9.0.0",
     "core-js": "^3.6.5",
     "react": "18.2.0",
@@ -22,7 +26,8 @@
     "regenerator-runtime": "0.13.7",
     "rxjs": "^7.0.0",
     "styled-components": "5.3.5",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
     "@nestjs/schematics": "^9.0.0",
